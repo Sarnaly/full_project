@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Nova+Square&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Edu+TAS+Beginner&family=Nova+Square&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Crimson+Pro:wght@200&family=Edu+TAS+Beginner&family=Nova+Square&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white !important;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */ /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+@font-face {
+  font-family: li_sabbir;
+  src: url(../../font/Li\ Sirajee\ Sanjar\ Unicode.ttf);
+}
+.admission_form_main_body {
+  width: 794px;
+  min-height: 1122px;
+  height: 100%;
+  background-color: white !important;
+  border: 1px solid black;
+  position: relative;
+}
+/*page top section start */
+.admission_form_main_body .page_top_section {
+  padding: 4px 10px;
+}
+.admission_form_main_body .page_top_section .page_top_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.admission_form_main_body .page_top_section .page_top_row .name_details .institute_name_english {
+  font-size: 26px;
+  font-family: "Edu TAS Beginner", cursive;
+  font-family: "Nova Square", sans-serif;
+  font-weight: bold;
+}
+.admission_form_main_body .page_top_section .page_top_row .name_details .institute_name_bangla {
+  font-size: 30px;
+  font-family: "Tiro Bangla", serif;
+  text-align: center;
+}
+.admission_form_main_body .page_top_section .page_top_row .name_details .institute_code_est {
+  display: flex;
+  gap: 20px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 19px;
+}
+.admission_form_main_body .page_top_section .page_top_row .name_details .address {
+  text-align: center;
+  font-weight: lighter;
+  margin-top: -2x;
+}
+.admission_form_main_body .page_top_section .page_top_row .name_details .number_website_email {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  text-align: center;
+  font-weight: lighter;
+}
+/*page top section end */
+/* admission form btn start */
+.admission_form_main_body .admission_form {
+  text-align: center;
+  width: 158px;
+  background-image: linear-gradient(135deg, #f34079 40%, #fd9157);
+  margin: 0 auto;
+  margin-top: -6px;
+  color: white;
+  background-size: 150%;
+  padding: 10px 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  border: none;
+  background-image: linear-gradient(135deg, #f34079 40%, #fd9157);
+  border-radius: 40px;
+}
+/* admission form btn end */
+/* user id and admission date in one line start */
+.admission_form_main_body .user_id_register_type {
+  padding: 4px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.admission_form_main_body .user_id_register_type p {
+  background-color: rgba(118, 115, 117, 0.1803921569);
+  width: 100%;
+  padding: 10px;
+}
+.admission_form_main_body .user_id_register_type .problem {
+  text-align: right;
+}
+/* user id and admission date in one line end  */
+/* first table and photo start */
+.admission_form_main_body .table_and_user_photo {
+  display: grid;
+  grid-template-columns: 150px auto;
+  gap: 9.5px;
+  padding: 4px 10px;
+}
+.admission_form_main_body .table_and_user_photo .user_photo {
+  border: 1px solid black;
+  width: 150px;
+  height: 155px;
+}
+.admission_form_main_body .table_and_user_photo .table {
+  width: 100%;
+}
+.admission_form_main_body .table_and_user_photo .table table {
+  width: 100%;
+}
+.admission_form_main_body .table_and_user_photo .table table tr td {
+  background-color: rgba(118, 115, 117, 0.1803921569);
+  padding: 2px 10px;
+}
+/* first table and photo end */
+/* table two and table three start */
+.admission_form_main_body .table_2_3 {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px;
+  margin-top: -15px;
+}
+.admission_form_main_body .table_2_3 .table_2 table {
+  width: 100%;
+}
+.admission_form_main_body .table_2_3 .table_2 table tr td {
+  background-color: rgba(118, 115, 117, 0.1803921569);
+  padding: 2px 10px;
+}
+.admission_form_main_body .table_2_3 .table_3 {
+  margin-left: -1px;
+}
+.admission_form_main_body .table_2_3 .table_3 table {
+  width: 100%;
+}
+.admission_form_main_body .table_2_3 .table_3 table tr td {
+  background-color: rgba(118, 115, 117, 0.1803921569);
+  padding: 2px 10px;
+}
+/* table two and table three end */
+/* education section start */
+.admission_form_main_body .education {
+  padding: 5px 10px;
+}
+.admission_form_main_body .education table {
+  width: 100%;
+}
+.admission_form_main_body .education table tr td {
+  background-color: rgba(118, 115, 117, 0.1803921569);
+  padding: 2px 10px;
+}
+/* education section end */
+/*admission rules start */
+.admission_form_main_body .rules {
+  padding: 10px;
+}
+.admission_form_main_body .rules p {
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+.admission_form_main_body .rules p i {
+  margin-right: 10px;
+}
+/*admission rules END */
+/* assure section start */
+.admission_form_main_body .assure_that {
+  padding: 10px;
+  font-size: 17px;
+  margin-top: -8px;
+}
+/* assure section end */
+/* sign section start */
+.admission_form_main_body .sign {
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  margin-top: 55px;
+}
+.admission_form_main_body .sign .teacher_sign {
+  text-align: right;
+}
+.admission_form_main_body .sign .teacher_sign::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: black;
+  margin-top: -2px;
+  margin-left: -120px;
+}
+.admission_form_main_body .sign .student_sign::before {
+  content: "";
+  position: absolute;
+  width: 117px;
+  height: 2px;
+  background-color: black;
+  margin-top: -2px;
+}
+/* sign section end */
+/* bottom section start */
+.admission_form_main_body .bottom_section {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.admission_form_main_body .bottom_section .bottom_section_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  height: 60px;
+  align-items: center;
+  background: rgba(118, 115, 117, 0.1803921569);
+}
+.admission_form_main_body .bottom_section .bottom_section_row .bottom_section_col {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+/* bottom section end */

@@ -1,0 +1,31 @@
+.admission_form{
+	
+	padding:10px !important;
+	border-radius:4px;
+}
+.admission_form .form_title h1{
+	text-align:center;
+	font-size: 30px;
+    color: #65BDB6;
+    padding-bottom: 40px;
+}
+.admission_form .info_title{
+	font-size:20px !important;
+}
+.admission_form .ad_btn{
+	width:100%;
+	text-align:center;
+}
+.admission_form .submit_btn{
+	background:#65BDB6 !important;
+	border:none;
+	outline:none;
+	color:#fff;
+	font-size:20px;
+	width:120px;
+	height:38px;
+	margin:20px 10px;
+	border-radius:4px;
+	float:left;
+	
+}

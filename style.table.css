@@ -1,0 +1,39 @@
+
+    
+    table thead tr:nth-child(1){
+        background:#65BDB6;
+        color:#fff;
+    }
+   
+    .button{
+            text-decoration: none;
+            width:100px;
+            background:#65BDB6;
+            display: inline-block;
+            text-align: center;
+            line-height: 38px;
+            border-radius:4px;
+            padding: 2px 4px;		
+    }
+    
+    .s_photo{
+        width:80px !important;
+        height:80px !important;
+        object-fit:cover !important;
+
+    }
+    .have-account,.registered{
+        background:green !important;
+        color:white !important;
+        border:1px solid #fff !important;
+    }
+	.btn-delete{
+        width:40px;			
+}
+.active{
+    background:green !important;
+}
+ .dropdown-item:hover{
+    background-color: #65BDB6 !important;
+    color:white !important;
+ }
